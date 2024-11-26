@@ -22,8 +22,8 @@ const projects = [
     description: "Shopping Website",
     stack: [{ name: 'Next.js' }, { name: 'Tailwind.css' }, { name: 'Typescript' }],
     image: '/assets/work/thumb4.png',
-    live: "https://shopping-website-peach.vercel.app/",
-    github: "https://github.com/DelaBandara/shopping-website",
+    live: "https://shopping-website-puce.vercel.app/",
+    github: "https://github.com/KanishkaDela/ShoppingWebsite.git",
   },
   {
     num: "02",
@@ -39,11 +39,11 @@ const projects = [
     num: "03",
     category: "frontend",
     title: "project 3",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam voluptate optio debitis? Est sed,",
+    description: "Travel Website",
     stack: [{ name: 'Next.js' }, { name: 'Tailwind.Css' }],
-    image: '/assets/work/thumb3.png',
-    live: "",
-    github: "",
+    image: '/assets/work/thumb6.png',
+    live: "https://travel-website-one-ecru.vercel.app/",
+    github: "https://github.com/KanishkaDela/Travel-Website.git",
   }
 ];
 
