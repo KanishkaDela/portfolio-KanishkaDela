@@ -1,3 +1,6 @@
+"use client"; 
+
+
 import { Button } from "@/components/ui/button";
 import {FiDownload} from "react-icons/fi";
 
@@ -7,6 +10,10 @@ import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 
 const Home = () => {
+
+  const cvUrl =
+    "https://drive.google.com/uc?export=download&id=1pytvyz30AHDZh_4wu9Kjb4lixoYyjLHG";
+
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
@@ -27,6 +34,8 @@ const Home = () => {
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2"
+                onClick={() => window.open(cvUrl, "_blank")}
+
                 >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
