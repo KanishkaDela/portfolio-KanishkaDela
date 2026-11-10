@@ -12,7 +12,7 @@ import Stats from "@/components/Stats";
 const Home = () => {
 
   const cvUrl =
-    "https://drive.google.com/uc?export=download&id=1pytvyz30AHDZh_4wu9Kjb4lixoYyjLHG";
+    "https://drive.google.com/uc?export=download&id=1dvyRUuUp976iqSFL6rSJhFTlXyxv2PFe";
 
   return (
     <section className="h-full">
